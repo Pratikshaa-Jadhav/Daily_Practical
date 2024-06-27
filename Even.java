@@ -8,7 +8,7 @@ public class Even {
 		// TODO Auto-generated method stub
 		int min,max;
 		Scanner sc = new Scanner(System.in); 
-		    System.out.println("enter no min vale");
+		    System.out.println("enter no min value");
 			min=sc.nextInt();
 			System.out.println("enter a max value");
 			max=sc.nextInt();
