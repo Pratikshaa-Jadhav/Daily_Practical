@@ -1,29 +1,28 @@
-package method;
+import java.util.*;
 
-import java.util.Scanner;
-
-public class Check_PrimeNo {
+public class Check_PrimeNo{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num,i,res=0;
-		Scanner sc= new Scanner(System.in);
+		int i,num;
 		System.out.println("enter a no:");
-		num=sc.nextInt();
-		for(i=2;i<num/2;++i) {
-			if(num%i==0)
-			{
-				res++;
-				break;
-				
-			}
-		}
-		if (res/2==0) {
-			System.out.println("\nit is prime no");
-		}
-		else
-			System.out.println("\n it is not prime no");
-
+		Scanner sc=new Scanner(System.in);
+		num=sc.nextInt();//Input no
+		
+	for(i=2;i<=num;i++)//condition for nonprime number
+{
+	if(num%i==0) 
+	{
+		break;
 	}
-
+}
+if(num==i)//True
+{
+System.out.println("prime no");
+}
+else//False
+{
+System.out.println("not prime no");
+}
+}
 }
