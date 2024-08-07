@@ -1,14 +1,10 @@
-package method;
-
+package function;
 
 public class Main {
 
 
-
-
-
 		
-		public static void  sum(int a,int b) {
+		public static void main sum(int a,int b) {
 		
 	        int sum=a+b;
 	        System.out.println(sum);
@@ -20,6 +16,5 @@ public class Main {
 
 
 	}
-	
 
 }
